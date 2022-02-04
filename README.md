@@ -31,6 +31,13 @@ pod created
 
 ![image](https://user-images.githubusercontent.com/67266752/152446011-4a9e5022-c3a6-40cd-aafa-539cc41eeb43.png)
 
+Deployment "nginx-deployment" has been created
+![image](https://user-images.githubusercontent.com/67266752/152451551-58b8e964-3ecd-42cb-8e12-3412d682d02e.png)
+
+When I deleted 1 pod I saw another one immidiately created
+![image](https://user-images.githubusercontent.com/67266752/152451651-415c5ef1-13d2-4221-8717-8eb8d35dd287.png)
+
+
 
 Apply manifests (download from repository):
 ![image](https://user-images.githubusercontent.com/67266752/152447008-cddd4a4e-6745-46f6-90f1-63e5722ee519.png)
