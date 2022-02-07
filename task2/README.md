@@ -50,10 +50,20 @@ Checking the availability of the NodePort service type - available
 **Headless service**
 ![image](https://user-images.githubusercontent.com/67266752/152811730-1374938b-1433-4f8e-a202-8f4f0cd64fd8.png)
 
-DNS
+**DNS**
 ![image](https://user-images.githubusercontent.com/67266752/152857987-abbbab9d-eb61-4cff-ba76-03a40ee3b998.png)
 
-![image](https://user-images.githubusercontent.com/67266752/152863002-82ac5f49-0400-4f01-9f73-9f2564ee51fa.png)
+Looks like not working
+![image](https://user-images.githubusercontent.com/67266752/152865016-03f9dfe2-b8cc-44b8-88d8-acdd7efa6234.png)
+
+**Ingress**
+
+![image](https://user-images.githubusercontent.com/67266752/152866027-e9f13230-0410-4aeb-97ea-af82a247b8eb.png)
+
+![image](https://user-images.githubusercontent.com/67266752/152866628-a882f399-de8b-4510-8b46-ab0466fd5f9a.png)
+
+
+**Homework**
 
 
 
