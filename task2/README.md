@@ -24,6 +24,7 @@ From another pod:
 ![image](https://user-images.githubusercontent.com/67266752/152707452-1f96a578-c112-47d4-99c6-8dc180758f4f.png)
 
 **Create service (ClusterIP)**
+
 Create and apply a manifest
 ![image](https://user-images.githubusercontent.com/67266752/152807341-cf811732-6f68-4e4b-88ec-a203c0aedadf.png)
 ![image](https://user-images.githubusercontent.com/67266752/152807594-13379705-a576-4840-a35c-799b385e41be.png)
@@ -40,3 +41,21 @@ From another pod (kubectl exec -it $(kubectl get pod |awk '{print $1}'|grep web-
 ![image](https://user-images.githubusercontent.com/67266752/152809077-9bf9e995-461f-4425-84e8-c4174b628c00.png)
 
 **NodePort:**
+
+![image](https://user-images.githubusercontent.com/67266752/152810949-14f9334c-51d7-4721-8215-68e479fb1a97.png)
+
+Checking the availability of the NodePort service type - available
+![image](https://user-images.githubusercontent.com/67266752/152811479-15c868e3-4109-4bca-80db-e62cedd025d3.png)
+
+**Headless service**
+![image](https://user-images.githubusercontent.com/67266752/152811730-1374938b-1433-4f8e-a202-8f4f0cd64fd8.png)
+
+DNS
+![image](https://user-images.githubusercontent.com/67266752/152857987-abbbab9d-eb61-4cff-ba76-03a40ee3b998.png)
+
+![image](https://user-images.githubusercontent.com/67266752/152863002-82ac5f49-0400-4f01-9f73-9f2564ee51fa.png)
+
+
+
+
+
