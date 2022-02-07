@@ -1,4 +1,4 @@
-Task 2
+**Task 2**
 
 ConfigMap & Secrets
 ![image](https://user-images.githubusercontent.com/67266752/152607851-a87a99ad-6e83-446b-9cc1-137e40aaf00f.png)
@@ -23,7 +23,8 @@ From minikube:
 From another pod:
 ![image](https://user-images.githubusercontent.com/67266752/152707452-1f96a578-c112-47d4-99c6-8dc180758f4f.png)
 
-Create service (ClusterIP)
+**Create service (ClusterIP)**
+Create and apply a manifest
 ![image](https://user-images.githubusercontent.com/67266752/152807341-cf811732-6f68-4e4b-88ec-a203c0aedadf.png)
 ![image](https://user-images.githubusercontent.com/67266752/152807594-13379705-a576-4840-a35c-799b385e41be.png)
 
@@ -33,8 +34,9 @@ Try connect to service (curl service_ip_address). What happens? connection timed
 From you PC - unreachable
 
 From minikube (minikube ssh) (run the command several times)
-
+![image](https://user-images.githubusercontent.com/67266752/152809679-9c62fb96-c238-479d-9a18-98b193ee3cce.png)
 
 From another pod (kubectl exec -it $(kubectl get pod |awk '{print $1}'|grep web-|head -n1) bash) (run the command several times)
 ![image](https://user-images.githubusercontent.com/67266752/152809077-9bf9e995-461f-4425-84e8-c4174b628c00.png)
 
+**NodePort:**
