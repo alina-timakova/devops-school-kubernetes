@@ -23,5 +23,18 @@ From minikube:
 From another pod:
 ![image](https://user-images.githubusercontent.com/67266752/152707452-1f96a578-c112-47d4-99c6-8dc180758f4f.png)
 
-
 Create service (ClusterIP)
+![image](https://user-images.githubusercontent.com/67266752/152807341-cf811732-6f68-4e4b-88ec-a203c0aedadf.png)
+![image](https://user-images.githubusercontent.com/67266752/152807594-13379705-a576-4840-a35c-799b385e41be.png)
+
+Try connect to service (curl service_ip_address). What happens? connection timed out
+![image](https://user-images.githubusercontent.com/67266752/152808405-73a7c459-a290-4444-bdab-2677f6d5e795.png)
+
+From you PC - unreachable
+
+From minikube (minikube ssh) (run the command several times)
+
+
+From another pod (kubectl exec -it $(kubectl get pod |awk '{print $1}'|grep web-|head -n1) bash) (run the command several times)
+![image](https://user-images.githubusercontent.com/67266752/152809077-9bf9e995-461f-4425-84e8-c4174b628c00.png)
+
