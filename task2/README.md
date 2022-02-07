@@ -51,10 +51,17 @@ Checking the availability of the NodePort service type - available
 ![image](https://user-images.githubusercontent.com/67266752/152811730-1374938b-1433-4f8e-a202-8f4f0cd64fd8.png)
 
 **DNS**
-![image](https://user-images.githubusercontent.com/67266752/152857987-abbbab9d-eb61-4cff-ba76-03a40ee3b998.png)
+Connect to any pod cat /etc/resolv.conf
+![image](https://user-images.githubusercontent.com/67266752/152890990-8d912317-64b5-45d2-ac61-5e6e8ac389cb.png)
 
-Looks like not working
-![image](https://user-images.githubusercontent.com/67266752/152865016-03f9dfe2-b8cc-44b8-88d8-acdd7efa6234.png)
+Pod with dnsutils has been created:
+![image](https://user-images.githubusercontent.com/67266752/152890879-a07eaaa7-4575-4af4-bdc6-02ba2cc69613.png)
+
+DNS service of the cluster
+![image](https://user-images.githubusercontent.com/67266752/152891108-d9ed4cc9-e4fc-41d7-9acc-ee2526257616.png)
+
+Run nslookup to normal clusterip and headless
+![image](https://user-images.githubusercontent.com/67266752/152891394-7389c889-31f9-4c96-8af5-b19ada55a8da.png)
 
 **Ingress**
 
@@ -64,7 +71,8 @@ Looks like not working
 
 
 **Homework**
-
+Running pods in kube-system namespace
+![image](https://user-images.githubusercontent.com/67266752/152867631-c2501955-86e4-42f9-b62c-06b8df4513ac.png)
 
 
 
