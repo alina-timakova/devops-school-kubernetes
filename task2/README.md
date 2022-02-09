@@ -74,6 +74,8 @@ Run nslookup to normal clusterip and headless
 Running pods in kube-system namespace
 ![image](https://user-images.githubusercontent.com/67266752/152867631-c2501955-86e4-42f9-b62c-06b8df4513ac.png)
 
+Kubelet make sure that control plane components which are etcd,kube-apiserver,kube-controller-manager and kube-scheduler running as pod.
+
 
 
 
