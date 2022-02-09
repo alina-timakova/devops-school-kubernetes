@@ -71,11 +71,15 @@ Run nslookup to normal clusterip and headless
 
 
 **Homework**
+
+- In Minikube in namespace kube-system, there are many different pods running. Your task is to figure out who creates them, and who makes sure they are running (restores them after deletion).
+
 Running pods in kube-system namespace
 ![image](https://user-images.githubusercontent.com/67266752/152867631-c2501955-86e4-42f9-b62c-06b8df4513ac.png)
 
 Kubelet make sure that control plane components which are etcd,kube-apiserver,kube-controller-manager and kube-scheduler running as pod.
 
+- Implement Canary deployment of an application via Ingress. Traffic to canary deployment should be redirected if you add "canary:always" in the header, otherwise it should go to regular deployment. Set to redirect a percentage of traffic to canary deployment.
 
 
 
