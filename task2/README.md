@@ -81,5 +81,20 @@ Kubelet make sure that control plane components which are etcd,kube-apiserver,ku
 
 - Implement Canary deployment of an application via Ingress. Traffic to canary deployment should be redirected if you add "canary:always" in the header, otherwise it should go to regular deployment. Set to redirect a percentage of traffic to canary deployment.
 
+Created new deployment with the same parametres and different name and service
+![image](https://user-images.githubusercontent.com/67266752/153518021-15dab15b-f4e6-4770-8b1c-54d6f7b9a479.png)
+
+![image](https://user-images.githubusercontent.com/67266752/153518000-79ab2803-0a1e-4603-9f8d-ab0980d5dabc.png)
+
+Created ingress-canary:
+![image](https://user-images.githubusercontent.com/67266752/153521323-c35bccb0-b4b1-4847-86b2-953b3baffb81.png)
+
+Traffic flows to stable and canary versions:
+![image](https://user-images.githubusercontent.com/67266752/153521457-703f0d5d-5634-425d-bd2d-be37a2a942ae.png)
+
+canary: always
+![image](https://user-images.githubusercontent.com/67266752/153523370-3ec86151-07fd-4ab5-8dc6-bd3f2d5b6f97.png)
+
+
 
 
